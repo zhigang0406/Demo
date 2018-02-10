@@ -1,0 +1,16 @@
+user:
+  hehe: hanshuai
+  pwd: 1234567
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/spring
+    username: root
+    password: hanshuai
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  data:
+    mongodb:
+      uri: mongdb://root:hanshuai@127.0.0.1:27017/testDo
