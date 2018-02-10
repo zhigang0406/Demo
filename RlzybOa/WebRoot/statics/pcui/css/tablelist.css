@@ -1,0 +1,65 @@
+/* CSS Document */
+
+.tableInfo{
+	background-color:#fff;
+	display:block;
+	width:100%;
+	
+	
+}
+.selectTable{
+		border-radius:2px;
+		text-align:center;
+		width:100%;
+		font-size:12px;
+		color:#333;
+		border-top:1px solid #e9e9e9;
+		border-left:1px solid #e9e9e9; 
+		
+}
+.selectTable tr{
+   min-height:30px;
+   line-height:30px;
+
+}
+.tr_active{ background-color:#2fa4e7; color:#fff;}
+
+
+.selectTable tr input{
+	  
+	  width:16px;
+	  height:16px;
+	  margin-top:8px;
+}
+
+ .selectTable tr:hover{
+		cursor:pointer;
+  }
+
+
+ .selectTable tr:nth-child(even){
+	    background-color: #f9f9f9;
+ } 
+
+.ghbs{
+	background-color:#f9f9f9;
+}
+.selectTable tr th{
+   min-height:30px;
+   line-height:30px;
+   border-width:0px 1px 1px 0px;
+   border-color:#E5E5E5;
+   border-style:solid;
+   background-color: #eeeeee;
+ } 
+ 
+.selectTable tr td{
+   padding:2px 5px;
+   min-height:30px;
+   line-height:30px;
+   border-width:0px 1px 1px 0px;
+   border-color:#E5E5E5;
+   border-style:solid;   
+}
+ 
+

@@ -1,0 +1,33 @@
+/* CSS Document */
+*{
+	margin:0px;
+	_margin:0px;
+	padding:0px;
+	_padding:0px;
+	font-family:Micsoft Yahei;
+}
+a{text-decoration:none;}
+body{ background-color:#fff;}
+
+img{border:0;}
+a:focus {outline:none;}
+.btposition{
+	
+	margin:5px;
+}
+
+
+.container{
+     margin:5px 0px 0px 15px; overflow: hidden;
+}
+.tabTitle{
+	font-size:14px;
+	color:#333333; 
+	text-indent:2pt;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #E5E5E5;
+	margin-bottom:5px;
+}
+
+

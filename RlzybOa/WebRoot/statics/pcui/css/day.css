@@ -1,0 +1,47 @@
+/* CSS Document */
+/*我的桌面( 工作计划 )*/
+
+.qxfp{
+	font-size:14px;
+	color:#333333; 
+	height: 30px; 
+	line-height:30px;  
+	border-bottom:1px solid #CCCCCC; 
+	text-indent: 15pt; 
+	font-weight:bold;
+}
+.gn_nav{
+	margin-top: 5px; 
+	margin-left: 10px;
+	clear:both;
+	overflow:hidden;
+	
+}
+.gnmk{
+	float: left; 
+	margin: 15px 15px; 
+	cursor: pointer;
+	display: block;  
+	height:40px; 
+	line-height:40px; 
+	color:#606060;
+	border-radius: 2px; 
+	border:1px solid #CCCCCC; 
+	padding:5px 30px; 
+	position: relative;
+	background-image: url("../images/nav.png"); 
+	background-position: 10px 16px; 
+	background-repeat: no-repeat;
+}
+
+.gnmk:hover{
+	background: #f9f9f9;
+	background-image: url("../images/nav.png"); 
+	background-position: 10px 15px; 
+	background-repeat: no-repeat;
+}
+.gnmk span{color:#ff0000;}
+
+/*结束*/
+
+

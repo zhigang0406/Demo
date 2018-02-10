@@ -1,0 +1,250 @@
+/* CSS Document */
+input,button,select,textarea{outline:none}
+input[type=button]:hover{background-color:#f39801;}
+/*文本框*/
+.textStyle{width:100%;  height:24px; border:1px solid #CCCCCC; padding:2px 4px; line-height:24px; color:#606060; border-radius: 2px;  }
+
+/*下拉框*/
+.selectStyle{width:100%;  height:30px; border:1px solid #CCCCCC; padding:2px 4px; line-height:30px; color:#606060; border-radius: 2px;}
+/*日期*/
+.dateStyle{width:100%;  height:24px; border:1px solid #CCCCCC; padding:2px 4px; line-height:24px; color:#606060; border-radius: 2px; }
+/*上传*/
+.fileStyle{ display:block;  width:82px; height:30px; line-height:30px; background:url(../images/upload1.png); background-repeat:no-repeat;  float:left; margin-top:10px; margin-right:3px;  overflow:hidden; cursor:pointer;}
+.file{
+	cursor:pointer;
+	font-size:20px;
+	left:0px;
+	opacity:0;
+	filter:alpha(opacity=0);
+}
+
+/*搜索框*/
+.searchStyle{width:100%;  height:30px; border:1px solid #CCCCCC; padding:2px 4px; line-height:30px; color:#606060; border-radius: 2px;}
+/*单选*/
+.radioStyle{border:1px solid #CCCCCC; width:17px; height:17px; margin-right:5px; vertical-align:middle;}
+.checkedStyle{border:1px solid #CCCCCC; width:17px; height:17px; margin-right:5px; vertical-align:middle;}
+
+/*复选框*/
+.areaStyle{width:100%;  height:80px; border:1px solid #CCCCCC; padding:2px 4px;line-height:24px; color:#606060;border-radius: 2px;}
+
+/*不带图标按钮*/
+.bottomStyle{  
+	cursor:pointer;
+	background-color:#44bb00;
+	width:65px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	color:#fff;
+	font-size:12px;
+	font-weight:bold;
+	border:0px; 
+	border-radius: 3px;
+	margin-right:20px;
+}
+
+/*带图标按钮*/
+.saveButton{ cursor:pointer;
+	background-color:#44bb00;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/save.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;}
+
+.insertButton{
+	cursor:pointer;
+	background-color:#2fa4e7;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/jh.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+
+.searchButton{ 
+	cursor:pointer;
+	background-color:#44bb00;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/search.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 28px;
+  }
+.deleteButton{  
+    cursor:pointer;
+	background-color:#e4471c;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/del.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+.uploadButton{
+	cursor:pointer;
+	background-color:#44bb00;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/upload_ico.png); 
+	background-repeat:no-repeat;
+	background-position:4px 5px;
+	padding:0px 15px 0px 30px;
+}
+
+.printButton{
+	cursor:pointer;
+	background-color:#c84567;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/print.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+.printButton1{
+	cursor:pointer;
+	background-color:#7093db;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/print.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+
+.returnButton{
+	cursor:pointer;
+	background-color:#129ce6;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/return.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+.excel_out_Button{
+	cursor:pointer;
+	background-color:#44bb00;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/dc.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+.excel_in_Button{
+	cursor:pointer;
+	background-color:#44bb00;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/dr.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+.editButton{
+	cursor:pointer;
+	background-color:#44bb00;
+	height:30px;
+	line-height:30px;
+	text-align:center; 
+	color:#fff;
+	font-size:12px;
+	font-weight:bold; 
+	border:0px; 
+	border-radius: 3px; 
+	margin-right:20px;
+	background-image:url(../images/bj.png); 
+	background-repeat:no-repeat;
+	background-position:6px 7px;
+	padding:0px 15px 0px 30px;
+}
+
+/*搜索区条件样式*/
+.serach{
+		border:1px solid #e9e9e9;  
+		text-indent:10pt;
+		background-color:#fff;
+		width:99%; 
+		margin-top:10px;
+		margin-bottom:10px;
+		border-radius:2px;
+		display:block;
+		height:50px;
+        line-height:50px;
+}
+.serach input{margin-right:15px;}

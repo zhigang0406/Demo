@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="cn.tyyhoa.dao.OaRlzybWelcomeMapper">
+	<select id="itemList" resultType="OaRlzybItem" >
+		select * from oa_rlzyb_item  where del=1 ORDER BY time DESC
+	</select>
+	<select id="totaCount" resultType="int">
+		select count(1) from oa_rlzyb_item 
+	</select>
+	<insert id="insertItem">
+		INSERT INTO oa_rlzyb_item VALUES(0,#{name},#{text},#{time},1)
+	</insert>
+	<update id="del">
+		update oa_rlzyb_item set del=0 where id=#{id}
+	</update>
+	<select id="selectAll" resultType="OaRlzybEmployee" >
+		select emp_sex,emp_age from oa_rlzyb_employee where emp_delectStatus='未删除'
+	</select>
+</mapper>

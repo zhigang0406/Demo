@@ -1,0 +1,29 @@
+/* CSS Document */
+/********************************************/
+
+.addTable{
+    text-align:left;
+	width:100%;
+	font-size:12px;
+	color:#333333;
+   
+}
+.addTable tr{
+   min-height:50px;
+   line-height:50px;
+  
+}
+ 
+.addTable tr td{
+   padding:0px 3px;
+   min-height:50px;
+   line-height:50px;
+}
+
+.addTable tr td span{
+	color:#ff0000;
+	
+}
+.tdWidth{width:80px;text-align:right;}
+.tdWidth1{width:120px;text-align:right;}
+
